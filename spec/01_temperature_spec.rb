@@ -31,7 +31,7 @@ describe "temperature conversion functions" do
     it "converts boiling temperature" do
       expect(ctof(100)).to eq(212)
     end
-
+    
     it "converts arbitrary temperature" do
       expect(ctof(20)).to eq(68)
     end
